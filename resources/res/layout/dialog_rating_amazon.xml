@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_amazon_rating"
+    android:layout_width="307dp"
+    android:layout_height="229dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.security.xvpn.z35kb.XTextViewNew
+            android:textSize="19dp"
+            android:textColor="#333333"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="24dp"
+            android:text="Enjoying X-VPN?"/>
+        <com.security.xvpn.z35kb.XTextViewNew
+            android:textColor="#333333"
+            android:gravity="center"
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="24dp"
+            android:text="Tap a star to rate it on Amazon Store"/>
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/iv_rating"
+            android:background="@drawable/bg_server_item_choose_tv"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:nextFocusRight="@+id/iv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:src="@drawable/ic_amazon_stars"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_gravity="right"
+        android:id="@+id/iv_close"
+        android:padding="8dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:src="@drawable/ic_tv_guide_close"/>
+</FrameLayout>

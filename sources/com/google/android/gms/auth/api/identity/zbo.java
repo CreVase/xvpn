@@ -1,0 +1,15 @@
+package com.google.android.gms.auth.api.identity;
+
+import com.google.android.gms.common.api.Api;
+import com.google.android.gms.common.internal.Objects;
+
+/* loaded from: classes.dex */
+public final class zbo implements Api.ApiOptions.Optional {
+    public final boolean equals(Object obj) {
+        return obj instanceof zbo;
+    }
+
+    public final int hashCode() {
+        return Objects.hashCode(zbo.class);
+    }
+}

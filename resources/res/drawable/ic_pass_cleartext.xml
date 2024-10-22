@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <group>
+        <clip-path android:pathData="M0,0h24v24h-24z"/>
+        <path
+            android:fillColor="@color/EditTextPasswordSwitchColor"
+            android:pathData="M11.65,5.95C5.634,5.95 2,12.094 2,12.094C2,12.094 6.198,18.05 11.65,18.05C17.102,18.05 21.3,12.094 21.3,12.094C21.3,12.094 17.666,5.95 11.65,5.95ZM17.854,14.351C15.848,16.044 13.718,17.11 11.587,17.11C9.457,17.11 7.326,16.106 5.321,14.351C4.632,13.724 3.943,13.097 3.379,12.408C3.253,12.282 3.191,12.157 3.065,12.031C3.128,11.906 3.253,11.781 3.316,11.655C3.817,10.966 4.444,10.276 5.133,9.649C7.076,7.894 9.206,6.828 11.587,6.828C13.969,6.828 16.099,7.894 18.042,9.649C18.731,10.276 19.295,10.966 19.859,11.655C19.921,11.781 20.047,11.906 20.109,12.031C20.047,12.157 19.921,12.282 19.796,12.408C19.232,13.034 18.606,13.724 17.854,14.351Z"
+            android:strokeColor="#00000000"
+            android:strokeWidth="1"
+            android:fillType="nonZero"/>
+        <path
+            android:fillColor="@color/EditTextPasswordSwitchColor"
+            android:pathData="M11.587,8.332C9.707,8.332 8.266,9.837 8.266,11.655C8.266,13.536 9.77,14.978 11.587,14.978C13.467,14.978 14.908,13.473 14.908,11.655C14.908,9.837 13.405,8.332 11.587,8.332ZM11.587,14.1C10.271,14.1 9.206,13.034 9.206,11.718C9.206,10.401 10.271,9.335 11.587,9.335C12.903,9.335 13.969,10.401 13.969,11.718C13.969,12.972 12.903,14.1 11.587,14.1Z"
+            android:strokeColor="#00000000"
+            android:strokeWidth="1"
+            android:fillType="nonZero"/>
+    </group>
+</vector>

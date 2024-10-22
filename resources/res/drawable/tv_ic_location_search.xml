@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="18.64dp"
+    android:width="18dp"
+    android:viewportWidth="28"
+    android:viewportHeight="29">
+    <path
+        android:fillColor="@color/tv_protocol_config_input_icon"
+        android:pathData="M12.0554,24.34C5.4081,24.34 0,18.9318 0,12.2845C0,5.6371 5.4081,0.2289 12.0554,0.2289C18.7028,0.2289 24.1111,5.6371 24.1111,12.2845C24.1111,18.9318 18.7028,24.34 12.0554,24.34L12.0554,24.34ZM12.0554,3.1963C7.0442,3.1963 2.9674,7.2733 2.9674,12.2845C2.9674,17.2957 7.0442,21.3727 12.0554,21.3727C17.0667,21.3727 21.1437,17.2957 21.1437,12.2845C21.1437,7.2733 17.0667,3.1963 12.0554,3.1963L12.0554,3.1963Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="nonZero"/>
+    <path
+        android:fillColor="@color/tv_protocol_config_input_icon"
+        android:pathData="M26.1444,28.2289C25.6694,28.2289 25.1947,28.0477 24.8323,27.6855L18.4323,21.2855C17.7077,20.5609 17.7077,19.3859 18.4323,18.6611C19.1572,17.9367 20.3318,17.9367 21.0567,18.6611L27.4565,25.0611C28.1812,25.7857 28.1812,26.9607 27.4565,27.6855C27.0941,28.0477 26.6194,28.2289 26.1444,28.2289"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="nonZero"/>
+</vector>

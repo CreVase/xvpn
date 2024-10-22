@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/llStatusTip"
+    android:background="#ff3377"
+    android:paddingLeft="20dp"
+    android:paddingTop="10dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.security.xvpn.z35kb.XTextViewNew
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ChatOnlineCountdown"
+        android:lineSpacingExtra="3dp"/>
+    <com.security.xvpn.z35kb.XTextViewNew
+        android:textColor="@color/white"
+        android:textColorLink="#fedc38"
+        android:autoLink="email"
+        android:id="@+id/tvSubTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/ChatOfflineSubTitle"
+        android:lineSpacingExtra="3dp"
+        android:fontFamily="sans-serif-light"/>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.security.xvpn.z35kb.widget.PasscodeEditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="28sp"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_marginTop="20dp"
+    android:singleLine="true"
+    android:maxLength="6"
+    android:inputType="text"
+    android:imeOptions="actionDone"
+    android:textSelectHandle="@drawable/empty"
+    android:textAllCaps="true">
+    <requestFocus/>
+</com.security.xvpn.z35kb.widget.PasscodeEditText>

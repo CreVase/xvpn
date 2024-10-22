@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/banner_container"
+    android:tag="layout/layout_ad_browser_banner_0"
+    android:paddingBottom="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:layout_height="0.5dp"
+        style="@style/CommonDivider"/>
+    <FrameLayout
+        android:id="@+id/item_ad_min_root_admob_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="80dp"/>
+</LinearLayout>

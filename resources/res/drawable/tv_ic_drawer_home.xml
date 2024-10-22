@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="38dp"
+    android:width="38dp"
+    android:viewportWidth="38"
+    android:viewportHeight="38">
+    <path
+        android:fillColor="@color/tv_drawer_item_color"
+        android:pathData="M20.649,1.387L34.663,10.313C35.558,10.883 36.1,11.87 36.1,12.931L36.1,31.994C36.099,32.818 35.771,33.609 35.188,34.191C34.605,34.774 33.814,35.101 32.99,35.1L20.592,35.1L20.594,25.539L17.445,25.539L17.445,35.099L5.01,35.1C4.186,35.101 3.395,34.774 2.812,34.191C2.229,33.609 1.901,32.818 1.9,31.994L1.9,12.663C1.9,11.588 2.456,10.589 3.371,10.023L17.339,1.366C18.355,0.737 19.641,0.745 20.649,1.387ZM32.894,31.894L32.894,12.968L18.978,4.106L5.106,12.701L5.106,31.894L14.369,31.894L14.369,22.401L23.67,22.401L23.67,31.893L32.894,31.894Z"
+        android:strokeColor="#00000000"
+        android:strokeWidth="1"
+        android:fillType="nonZero"/>
+</vector>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="44dp">
+    <com.security.xvpn.z35kb.widget.XRoundCornerImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        app:corner_radius="12dp"/>
+    <com.security.xvpn.z35kb.XTextViewNew
+        android:textSize="16sp"
+        android:textColor="@color/black_lyw"
+        android:ellipsize="end"
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:singleLine="true"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="30dp"/>
+    <ImageView
+        android:id="@+id/ivAction"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_app_remove"/>
+</LinearLayout>

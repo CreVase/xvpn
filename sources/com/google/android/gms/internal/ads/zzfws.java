@@ -1,0 +1,10 @@
+package com.google.android.gms.internal.ads;
+
+/* loaded from: classes.dex */
+public abstract class zzfws extends zzfww {
+    public zzfws() {
+        super(null);
+    }
+
+    public abstract zzfwd zza();
+}

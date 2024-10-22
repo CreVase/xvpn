@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/livechat_mark_shadow"/>
+    <item
+        android:drawable="@drawable/ic_livechat_mark_upgrade"
+        android:left="6.5dp"
+        android:top="3dp"
+        android:right="6.5dp"
+        android:bottom="10dp"/>
+</layer-list>

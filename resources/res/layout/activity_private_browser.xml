@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.security.xvpn.z35kb.widget.NavigationBarContentConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    app:insetType="bottomPadding|topPadding">
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_clear_shotscreen"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+</com.security.xvpn.z35kb.widget.NavigationBarContentConstraintLayout>

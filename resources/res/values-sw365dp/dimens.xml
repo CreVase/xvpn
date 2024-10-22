@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="account_sign_remind_txt_margin_top">66dp</dimen>
+    <dimen name="dialog_purchase_bind_another_title_size">20sp</dimen>
+    <dimen name="dialog_purchase_bind_error_title_margin_top">45dp</dimen>
+    <dimen name="dialog_purchase_remind_btn_height">48dp</dimen>
+    <dimen name="dialog_purchase_remind_btn_margin_top">30dp</dimen>
+    <dimen name="dialog_purchase_remind_btn_panel_margin_bottom">74dp</dimen>
+    <dimen name="dialog_purchase_remind_btn_txt_size">19sp</dimen>
+    <dimen name="dialog_purchase_remind_btn_width">200dp</dimen>
+    <dimen name="dialog_purchase_remind_dot_margin_left">20dp</dimen>
+    <dimen name="dialog_purchase_remind_dot_margin_right">12dp</dimen>
+    <dimen name="dialog_purchase_remind_padding_left">40dp</dimen>
+    <dimen name="dialog_purchase_remind_title_margin_top">56dp</dimen>
+    <dimen name="dialog_purchase_remind_title_txt_size">26sp</dimen>
+    <dimen name="dialog_purchase_remind_upgrade_success_txt_margin_top">20dp</dimen>
+    <dimen name="dialog_purchase_remind_upgrade_success_txt_size">18sp</dimen>
+    <dimen name="main_connect_btn_size">200dp</dimen>
+    <dimen name="main_connect_tips_margin">185dp</dimen>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <inset
+            android:drawable="@drawable/livechat_mark_upgrade_dark_bg"
+            android:inset="3dp"/>
+    </item>
+    <item
+        android:drawable="@drawable/ic_livechat_mark_upgrade"
+        android:left="3.5dp"
+        android:top="1dp"
+        android:right="3.5dp"
+        android:bottom="6dp"/>
+</layer-list>

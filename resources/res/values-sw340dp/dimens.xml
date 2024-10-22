@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="account_bind_subtitle_text_size">15sp</dimen>
+    <dimen name="account_bind_title_text_size">20sp</dimen>
+    <dimen name="home_connect_btn_margin_top">8dp</dimen>
+    <dimen name="main_select_location_txt_size">20sp</dimen>
+</resources>

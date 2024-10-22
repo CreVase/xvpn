@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/ic_setting_item_selected"/>
+    <item>
+        <shape>
+            <size
+                android:height="16dp"
+                android:width="16dp"/>
+            <solid android:color="@color/transparent"/>
+        </shape>
+    </item>
+</selector>

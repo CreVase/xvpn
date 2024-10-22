@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.security.xvpn.z35kb.widget.NavigationBarContentConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.security.xvpn.z35kb.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/toolbarGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="toolbar,toolbar_tv"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/protocol_list"
+        android:paddingBottom="@dimen/protocol_list_bottom_padding"
+        android:clipToPadding="false"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:focusedByDefault="@bool/isTelevision"
+        app:insetType="bottomPadding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarGroup"
+        app:layout_constraintWidth_max="510dp"/>
+</com.security.xvpn.z35kb.widget.NavigationBarContentConstraintLayout>

@@ -1,0 +1,30 @@
+package com.facebook.ads.redexgen.X;
+
+import com.facebook.ads.NativeAd;
+import com.facebook.ads.internal.api.MediaViewVideoRendererApi;
+
+/* loaded from: assets/audience_network.dex */
+public class UZ implements InterfaceC0464Iz {
+    public final /* synthetic */ MediaViewVideoRendererApi A00;
+    public final /* synthetic */ UV A01;
+
+    public UZ(UV uv, MediaViewVideoRendererApi mediaViewVideoRendererApi) {
+        this.A01 = uv;
+        this.A00 = mediaViewVideoRendererApi;
+    }
+
+    @Override // com.facebook.ads.redexgen.X.InterfaceC0464Iz
+    public final void AFI() {
+        this.A00.setVolume(0.0f);
+    }
+
+    @Override // com.facebook.ads.redexgen.X.InterfaceC0464Iz
+    public final void AFN(NativeAd nativeAd) {
+        this.A01.A0I(UJ.A0L(nativeAd.getInternalNativeAd()), null);
+    }
+
+    @Override // com.facebook.ads.redexgen.X.InterfaceC0464Iz
+    public final void AG2() {
+        this.A01.A0D();
+    }
+}

@@ -1,0 +1,6 @@
+package defpackage;
+
+/* loaded from: classes.dex */
+public abstract class k11 {
+    public abstract void a();
+}

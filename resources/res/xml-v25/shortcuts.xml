@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:icon="@mipmap/ic_launcher_toggle"
+        android:enabled="true"
+        android:shortcutId="toggle"
+        android:shortcutShortLabel="@string/shortcut_short_lable"
+        android:shortcutLongLabel="@string/shortcut_long_lable">
+        <intent
+            android:targetPackage="com.security.xvpn.z35kb"
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.security.xvpn.z35kb.quickconn.QuickToggleShortcut"/>
+    </shortcut>
+</shortcuts>
